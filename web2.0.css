@@ -28,7 +28,7 @@
 .hezi{
     flex: 1;
     display: flex;
-    min-width: 120px;
+    min-width: 200px;
     height: 50px;
     margin-right: 8px;
     margin-top: 8px;
@@ -76,7 +76,7 @@ p{
     align-items: center;
     opacity: 70%;
 }
-@media (min-width: 768px){
+@media (min-width: 1024px){
     body{
         margin: 0;
         height: 100vh;
@@ -86,7 +86,7 @@ p{
         Background-attachment: fixed;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     body{
         margin: 0;
         height: 100vh;

@@ -1,0 +1,99 @@
+/**{*/
+/*    border: 1px solid black;*/
+/*}*/
+/*body{*/
+/*    margin: 0;*/
+/*    height: 100vh;*/
+/*    background: #eee;*/
+/*    background-image: url("web1/背景.jpg");*/
+/*    background-size: 100% 100%;*/
+/*    Background-attachment: fixed;*/
+/*}*/
+.flex1{
+    flex: 1;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+.shengshuo{
+    flex-shrink: 0;
+}
+.huanhang{
+    flex-wrap: wrap;
+}
+.hezi{
+    flex: 1;
+    display: flex;
+    min-width: 120px;
+    height: 50px;
+    margin-right: 8px;
+    margin-top: 8px;
+    background: white;
+    box-shadow: rgb(0 0 0 /20%) 0 2px 1px -1px,
+    rgb(0 0 0 /14%) 0 1px 1px 0, rgb(0 0 0 /12%) 0 1px 3px 0;
+    opacity: 80%;
+}
+
+
+@font-face {
+    font-family:myFont;
+    src:url('Leefont蒙黑体.ttf')
+}
+label{
+    font-family: myFont;
+    font-size: 23px;
+}
+.hezili{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    /*opacity: 80%;*/
+}
+a:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+p{
+    margin-left: 5px;
+}
+.toubu{
+    align-items: center;
+    text-align: center;
+}
+.hidden{
+    visibility: hidden;
+}
+.foot{
+    border-top: 1px solid white;
+    margin-top: 30px;
+    align-items: center;
+    opacity: 70%;
+}
+@media (min-width: 768px){
+    body{
+        margin: 0;
+        height: 100vh;
+        background: #eee;
+        background-image: url("web1/背景.jpg");
+        background-size: 100% 100%;
+        Background-attachment: fixed;
+    }
+}
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        height: 100vh;
+        background: #eee;
+        background-image: url("web1/背景小.jpg");
+        background-size: 100% 100%;
+        Background-attachment: fixed;
+    }
+
+}
